@@ -7,10 +7,10 @@
 
   <!-- 폰트 -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS 분리 -->
+  <!-- CSS 연결 -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <!-- 헤더 -->
@@ -67,7 +67,52 @@
     <!-- 프로젝트 -->
     <h2 class="projects-title">주요 프로젝트</h2>
     <div class="projects-grid">
-      <!-- 프로젝트 카드들 동일하게 유지 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="imges/loreal.png" alt="프로젝트 1">
+        </div>
+        <div class="project-info">
+          <h3>로레알 리뉴얼</h3>
+          <p>이 1차 프로젝트는 정적인 페이지로 HTML, CSS, JavaScript로 하드 코딩하였습니다.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS</span>
+          </div>
+          <a href="https://loreal-seven.vercel.app/" class="project-link" target="_blank">자세히 보기 →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="imges/hanamain.png" alt="프로젝트 2">
+        </div>
+        <div class="project-info">
+          <h3>하나투어 리뉴얼</h3>
+          <p>하나투어 웹사이트 리뉴얼 프로젝트는 기존 사이트의 복잡한 정보 구조와 비효율적인 UI를 개선하기 위해 진행된 반응형 웹 리뉴얼입니다.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">PHP</span>
+          </div>
+          <a href="http://timcho4589.dothome.co.kr/hanatour_renewal/" class="project-link" target="_blank">자세히 보기 →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="imges/wandoo.png" alt="프로젝트 3">
+        </div>
+        <div class="project-info">
+          <h3>완두 프로젝트</h3>
+          <p>완두 커뮤니티 플랫폼 개발은 사람들이 자유롭게 소모임을 만들고 참여할 수 있는 오픈 커뮤니티를 구축하는 프로젝트입니다. 사용자가 주제별 소모임을 쉽게 생성하고 참여하며, 게시글과 댓글, 좋아요 등의 상호작용을 원활하게 경험할 수 있도록 설계했습니다.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Supabase API</span>
+            <span class="tag">Supabase</span>
+          </div>
+          <a href="https://wandoo-project-dun.vercel.app/" class="project-link" target="_blank">자세히 보기 →</a>
+        </div>
+      </div>
     </div>
   </div>
 
